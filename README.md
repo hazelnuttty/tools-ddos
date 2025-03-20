@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 2. Clone Repository
 
-git clone https://github.com/username/reponame.git
+git clone https://github.com/hazelnuttty/tools-ddos.git
 cd reponame
 
 (Ganti username/reponame sesuai dengan repo GitHub-mu.)
