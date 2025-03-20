@@ -5,12 +5,12 @@ import socks
 import stem.process
 from stem.control import Controller
 
-Install dependency jika belum ada
+# Install dependency jika belum ada
 
 os.system("pkg install python -y")
 os.system("pkg install tor -y")
 
-Konfigurasi TOR agar mengganti IP setiap request
+# Konfigurasi TOR agar mengganti IP setiap request
 
 def change_ip():
 with Controller.from_port(port=9051) as controller:
