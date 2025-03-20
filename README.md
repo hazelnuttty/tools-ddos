@@ -25,8 +25,8 @@ Script ini adalah alat untuk menguji ketahanan server dengan simulasi serangan D
 
 1. Install Dependency di Termux
 
-pkg update && pkg upgrade -y
-pkg install git python tor -y
+pkg update && pkg upgrade -y  
+pkg install git python tor -y  
 pip install -r requirements.txt
 
 2. Clone Repository
